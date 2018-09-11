@@ -55,9 +55,18 @@ window.onload = function() {
     var priceTotal = document.getElementById('priceTotal');//总金额
     var countInput = document.getElementsByClassName("count-input");//数量
     var reduceBtn = document.getElementsByClassName('reduce');
-    var name  = document.getElementsByClassName("")；
 
+    for(var i = 0; i<reduceBtn.length; i++){
+        reduceBtn[i].addEventListener('click',reduce,false)
+    }
     
+    function reduce(){
+        for(var i = 0; i<countInput.length; i++){
+            
+        }
+    }
+
+
 
 
 
